@@ -2,7 +2,11 @@ package com.javarevolutions.ws.bean;
 
 import java.io.Serializable;
 
-public class beanLogin implements Serializable{
+public class BeanLogin implements Serializable{
+/**
+	 * 
+	 */
+	private static final long serialVersionUID = -288483823558923962L;
 private String usuario;
 private String pasword;
 private String mensaje;
