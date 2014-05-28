@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class beanLogin implements Serializable{
 private String usuario;
-private String password;
+private String pasword;
 private String mensaje;
 private Boolean status;
 public String getUsuario() {
@@ -14,10 +14,10 @@ public void setUsuario(String usuario) {
 	this.usuario = usuario;
 }
 public String getPassword() {
-	return password;
+	return pasword;
 }
 public void setPassword(String password) {
-	this.password = password;
+	this.pasword = password;
 }
 public String getMensaje() {
 	return mensaje;
