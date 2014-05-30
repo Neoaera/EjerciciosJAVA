@@ -9,9 +9,12 @@ public class ImplLogin implements IfaceLogin{
 		BeanLogin bean = new BeanLogin();
 		if(obj.getUsuario().equals("SRios") && obj.getPassword().equals("rios")){
 			bean.setMensaje("Usuario Correcto 	.	.	.	.");
+			bean.setStatus(true);
 		}else{
-			bean.setMensaje("Usuario INCORRECT	.	.	.	.");
+			bean.setMensaje("Usuario INCORRECTO	.	.	.	.");
+			bean.setStatus(false);
 		}
+	return bean;
 	}
 
 }
