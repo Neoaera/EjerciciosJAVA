@@ -23,7 +23,7 @@ public class Principal {
 		try {
 			obj = iface.validaLogin(obj);
 			if(obj.getStatus()){
-				System.out.println("Welcome	.	.	.");
+				System.out.println("Welcome	.	.	.	.");
 			}else{
 				System.out.println(obj.getMensaje());
 			}
